@@ -1,0 +1,14 @@
+{
+  "repo": "qidz-holding",
+  "feeds": [
+    {
+      "source": "https://theqapp.com/frequently-asked-questions",
+      "feed_url": "https://theqapp.com/frequently-asked-questions",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}

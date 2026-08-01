@@ -1,7 +1,29 @@
 aid: qidz-holding
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/qidz-holding.png
 name: QiDZ Holding
-description: QiDZ Holding is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  QiDZ Holding operates theQapp (formerly QiDZ), a consumer mobile platform that
+  helps families discover, compare, and book activities, entertainment, and dining
+  experiences across the United Arab Emirates and the wider Middle East (Dubai, Abu
+  Dhabi, Riyadh, Jeddah, Eastern Province, Manama, and Cairo). The app curates theme
+  parks, water parks, indoor play areas, sports and creative classes, kid-friendly
+  restaurants, camps, staycations, museums, and birthday and event packages, and
+  offers a Q-Club membership with exclusive promo codes and discounts. Backed by 500
+  Global, QiDZ is a B2C mobile experience distributed through the Apple App Store and
+  Google Play; it exposes no public developer API, developer portal, or machine
+  specification, so this profile captures its identity and a domain-security probe
+  rather than API artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/qidz-holding/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Family Activities
+- Events
+- Booking
+- Entertainment
+- Mobile App
+- Consumer
+- UAE
+- Middle East
+- Discovery
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,29 @@ maintainers:
 common:
 - type: Website
   url: https://qidz.com
+- type: Website
+  name: theQapp (current brand)
+  url: https://theqapp.com
+- type: TermsOfService
+  url: https://theqapp.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://theqapp.com/privacy
+- type: Support
+  url: https://theqapp.com/contact-us
+- type: HelpCenter
+  url: https://theqapp.com/frequently-asked-questions
+- type: Blog
+  url: https://theqapp.com/blogs
+- type: SignUp
+  name: Download on the Apple App Store
+  url: https://apps.apple.com/gb/app/qidz-uae-family-activities/id1265147563
+- type: SignUp
+  name: Get it on Google Play
+  url: https://play.google.com/store/apps/details?id=com.qidz
+- type: DomainSecurity
+  url: security/qidz-holding-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
