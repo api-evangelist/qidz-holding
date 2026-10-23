@@ -31,3 +31,49 @@
     year: '2019'
   status: not-a-workflow
   arazzo: null
+- slug: qidz-holding-octo-self-certification-directory-certify-octo-travel
+  label: OCTO self-certification directory (certify.octo.travel)
+  partner_name: OCTO self-certification directory (certify.octo.travel)
+  category: OCTO API self-certification
+  type: register
+  channel: standard-directory
+  evidence: https://certify.octo.travel/verify
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: OCTO self-certification directory (certify.octo.travel)
+    standard: OCTO (Open Connectivity for Tours, Activities & Attractions) API specification
+    spec_file: null
+    spec_url: https://app.swaggerhub.com/apis-docs/OCTO-API/OCTO-API/1.0
+    standard_repo: octo
+    role: octo-certified
+    registrations:
+    - registered_name: QiDZ LLC
+      register_status: certified
+      register_id: rmk4E7gQ
+      matched_domain: qidz.com
+      matched_by: domain+local-verified
+      certificates:
+      - certificate_id: dfeab670-14c1-4274-984b-963f920c7132
+        type: supplier
+        status: APPROVED
+        is_active: false
+        certified_at: '2025-12-25'
+        revoked_at: null
+      - certificate_id: 1b9d7934-8fa7-4f42-9d45-a7fd95ba20d2
+        type: supplier
+        status: APPROVED
+        is_active: true
+        certified_at: '2025-12-28'
+        revoked_at: null
+    detected_by: sweep-octo-tours-activities.py
+    detected: '2026-10-23'
+    certified_products:
+    - product: OCTO supplier certification
+      lapsed: false
+      certified_at: '2025-12-28'
+      certificate_id: 1b9d7934-8fa7-4f42-9d45-a7fd95ba20d2
+    signal_note: certified_products = one entry per OCTO certification type (reseller / supplier), never per certificate;
+      lapsed = the certificate is no longer active (is_active false)
+  status: not-a-workflow
+  arazzo: null
